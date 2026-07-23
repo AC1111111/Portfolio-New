@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-import { Component } from "react";
 import DiscordService from "../../services/DiscordService";
-import { Await } from "react-router-dom";
 
 
 function Contact() {
