@@ -87,7 +87,7 @@ function Contact() {
             </p>
             <p style={{ textAlign: 'justify' }}>In case you wanna reach out by other means (Although, it's better to include an Email address just in case reaching out
                 by other means becomes an issue).</p>
-            <div className="col d-flex">
+            <div>
                 <div className="card border-primary">
                     {
                         alert.show && (
