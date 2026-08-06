@@ -22,7 +22,7 @@ class Body extends Component {
             <div>
                 <div>
                     <h1 style={{ textAlign: 'left' }}>Aditya Chanan</h1>
-                    <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+                    <nav class="navbar navbar-expand-sm bg-primary" data-bs-theme="dark">
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor04" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
