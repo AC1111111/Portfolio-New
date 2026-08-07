@@ -4,6 +4,7 @@ import Home from "./Home/Home";
 import Projects from "./Projects/Projects";
 import OtherWork from "./Other Work/OtherWork";
 import Contact from "./Contact/Contact";
+import RenderMain from "./Renders/RenderMain";
 import { Link, Route, Routes } from "react-router-dom";
 import linkedin from "../assets/linkedinlogo.png";
 import Github from "../assets/github-logo.png"
@@ -41,6 +42,10 @@ class Body extends Component {
                                         <Link className="nav-link" to="/other-work">Other Work
                                         </Link>
                                     </li>
+                                    <li className="nav-item">
+                                        <Link className="nav-link" to="/renders">Renders
+                                        </Link>
+                                    </li>
                                     <li class="nav-item">
                                         <Link class="nav-link" to="/contact">Contact</Link>
                                     </li>
@@ -68,6 +73,7 @@ class Body extends Component {
                     <Route path="/projects" element={<Projects />} />
                     <Route path="/other-work" element={<OtherWork/>}/>
                     <Route path="/contact" element={<Contact />} />
+                    <Route path="/renders" element={<RenderMain/>}/>
                 </Routes>
                 <footer className="bg-primary text-light py-4 mt-5">
                     <div className="container">
